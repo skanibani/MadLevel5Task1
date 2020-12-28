@@ -10,9 +10,6 @@ import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import com.example.madlevel5task1.databinding.FragmentNotepadBinding
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
 class NotepadFragment : Fragment() {
 
     private var _binding: FragmentNotepadBinding? = null
