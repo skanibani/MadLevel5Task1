@@ -11,17 +11,17 @@ interface NoteDao {
     // makes it operate in a background thread.
     // This eliminates the manual creation of a coroutine.
     @Query("SELECT * FROM noteTable LIMIT 1")
-    suspend fun getNotepad(): LiveData<Note?>
+    fun getNotepad(): LiveData<Note?>
 
     @Insert
-    suspend fun insertNote(note: Note)
+    fun insertNote(note: Note)
 
     @Update
-    suspend fun updateNote(vararg note: Note)
+    fun updateNote(vararg note: Note)
 
     @Delete
-    suspend fun deleteNote(note: Note)
+    fun deleteNote(note: Note)
 
     @Query("DELETE FROM noteTable")
-    suspend fun deleteAllNotes()
+    fun deleteAllNotes()
 }
