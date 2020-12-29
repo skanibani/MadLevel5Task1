@@ -6,6 +6,7 @@ import androidx.sqlite.db.SupportSQLiteOpenHelper
 import com.example.madlevel5task1.model.Note
 
 @Database(entities = [Note::class], version = 1, exportSchema = false)
+@TypeConverters(Converters::class)
 abstract class NotepadRoomDatabase : RoomDatabase() {
 
     abstract fun noteDao(): NoteDao
