@@ -6,9 +6,12 @@
     <string name="previous">Previous</string>
 
     <string name="notepad_header">My Notepad</string>
-    <string name="notepad_last_updated">Last updated:</string>
+    <string name="notepad_last_updated">Last updated: %1$s</string>
+    <string name="notepad_edit">Edit</string>
 
     <string name="add_note_title">Title</string>
     <string name="add_note_note">Note</string>
     <string name="add_note_save">Save</string>
+    
+    <string name="empty">Empty</string>
 </resources>
