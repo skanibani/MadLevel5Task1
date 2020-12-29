@@ -6,8 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-import android.widget.Button
-import androidx.navigation.fragment.findNavController
 import com.example.madlevel5task1.databinding.FragmentNotepadBinding
 
 class NotepadFragment : Fragment() {

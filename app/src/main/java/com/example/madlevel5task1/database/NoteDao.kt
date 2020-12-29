@@ -1,8 +1,8 @@
-package database
+package com.example.madlevel5task1.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import model.Note
+import com.example.madlevel5task1.model.Note
 
 @Dao
 interface NoteDao {
